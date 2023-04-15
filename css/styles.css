@@ -19,6 +19,7 @@
     --products-num: 3;
     --our-team-num: 4;
     --portf-list-num: 3;
+    --web-link-num: 4;
 
 }
 
@@ -76,7 +77,11 @@ img {
 }
 
 .header {
-    border-bottom: 1px solid var(--cornflower)
+    border-bottom: 1px solid var(--cornflower);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 .logo {
@@ -183,6 +188,8 @@ a {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-head {
@@ -238,19 +245,19 @@ a {
     width: calc(100% - (24px*(var(--benefits-columnum) - 1)*var(--benefits-columnum)));
 }
 
-.benefits-item::before {
+/* .benefits-item::before {
     display: block;
     content: "";
     height: 112px;
-    /* background-size: contain; */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--cloud);
-    border-radius: 4px;
-    margin-bottom: 8px;
-
+    background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-color: var(--cloud);
+border-radius: 4px;
+margin-bottom: 8px;
 }
 
+/* 
 .icon-antenna::before {
     background-image: url(../images/antenna.png);
 }
@@ -265,8 +272,19 @@ a {
 
 .icon-astronaut::before {
     background-image: url(../images/astronaut.png);
+} */
+
+
+.benefits-item {
+    display: block;
+    background-color: var(--cloud);
 }
 
+.benefits-icons {
+    background-color: var(--cloud);
+    width: 64px;
+    height: 64px;
+}
 
 
 .benefits-head {
@@ -372,9 +390,29 @@ a {
     margin-bottom: 8px;
 }
 
+
 .team-names {
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
+}
+
+.web-list {
+    display: flex;
+
+
+}
+
+.web-link {
+    background-color: var(--iris);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.web-link-item {
+    display: flex;
+    height: "16px";
+    width: "16px"
 }
 
 
@@ -383,16 +421,14 @@ a {
 }
 
 .head-customers {
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 72px;
+    padding: 120px 0;
 }
-
-.costumers-brand {}
 
 
 
