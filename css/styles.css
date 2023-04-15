@@ -71,9 +71,6 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-
-    /* outline: 2px solid red;
-    outline-offset: -2px; */
 }
 
 .header {
@@ -231,60 +228,34 @@ a {
 }
 
 .benefits-main {
-
     padding: 120px 0;
 }
 
 .benefits-list {
     display: flex;
     gap: 24px;
-
 }
 
 .benefits-item {
     width: calc(100% - (24px*(var(--benefits-columnum) - 1)*var(--benefits-columnum)));
 }
 
-/* .benefits-item::before {
-    display: block;
-    content: "";
-    height: 112px;
-    background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-background-color: var(--cloud);
-border-radius: 4px;
-margin-bottom: 8px;
-}
 
-/* 
-.icon-antenna::before {
-    background-image: url(../images/antenna.png);
-}
-
-.icon-clock::before {
-    background-image: url(../images/clock.png);
-}
-
-.icon-diagram::before {
-    background-image: url(../images/diagram.png);
-}
-
-.icon-astronaut::before {
-    background-image: url(../images/astronaut.png);
-} */
-
-
-.benefits-item {
-    display: block;
+.benefits-icon-bcg {
+    display: flex;
     background-color: var(--cloud);
+    height: 112px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border-radius: 4px;
 }
 
 .benefits-icons {
-    background-color: var(--cloud);
     width: 64px;
     height: 64px;
 }
+
 
 
 .benefits-head {
@@ -390,29 +361,39 @@ margin-bottom: 8px;
     margin-bottom: 8px;
 }
 
-
 .team-names {
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
 }
 
-.web-list {
+
+
+.social-list {
     display: flex;
-
-
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 
-.web-link {
+.social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--iris);
-    height: 40px;
-    width: 40px;
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
-.web-link-item {
-    display: flex;
-    height: "16px";
-    width: "16px"
+.social-item:hover,
+.social-item:cover {
+    background-color: var(--ocean);
+}
+
+.social-icon {
+    width: 16px;
+    height: 16px;
+    fill: var(--cloud);
 }
 
 
@@ -429,8 +410,6 @@ margin-bottom: 8px;
     margin-bottom: 72px;
     padding: 120px 0;
 }
-
-
 
 
 .customers .portf-menu {
