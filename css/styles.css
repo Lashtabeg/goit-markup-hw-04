@@ -358,11 +358,9 @@ a {
 }
 
 .team-names {
-    padding: 32px 16px;
+    padding: 32px 0;
     border-radius: 0px 0px 4px 4px;
 }
-
-
 
 .social-list {
     display: flex;
@@ -371,7 +369,7 @@ a {
     gap: 24px;
 }
 
-.social-item {
+.social-list-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,10 +379,15 @@ a {
     height: 40px;
 }
 
+.social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .social-item:hover,
 .social-item:cover {
     background-color: var(--ocean);
-    fill: var(--cloud);
 }
 
 .social-icon {
@@ -418,11 +421,28 @@ a {
     width: 168px;
     height: 88px;
     padding: 16px 32px;
+    border: 1px solid rgba(142, 143, 153, 1);
+    border-radius: 4px;
+
 }
 
+.costumer-brand:hover,
+.costumer-brand:focus,
+.costumer-brand:active {
+    background-color: var(--ocean);
+}
 
+.customer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-slate);
 
+}
 
+.customer-item {
+    fill: currentColor
+}
 
 
 
