@@ -251,13 +251,6 @@ a {
     border-radius: 4px;
 }
 
-.benefits-icons {
-    width: 64px;
-    height: 64px;
-}
-
-
-
 .benefits-head {
     font-weight: 500;
     font-size: 20px;
@@ -311,6 +304,9 @@ a {
     padding: 120px 0;
 }
 
+.team {
+    padding: 32px 0;
+}
 
 
 .our-team-main {
@@ -385,38 +381,53 @@ a {
     height: 40px;
 }
 
-/* a.social-item {
-    width: 100%;
-    height: 100%;
-} */
-
 .social-item:hover,
 .social-item:cover {
-    background-color: var(--green);
+    background-color: var(--ocean);
+    fill: var(--cloud);
 }
 
 .social-icon {
-    width: 16px;
-    height: 16px;
-
+    fill: var(--cloud);
 }
 
 
-.customers {
-    margin: 120px 156px;
-}
-
-.head-customers {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 72px;
+.customer {
     padding: 120px 0;
 }
 
+.head-customer {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 72px;
+    color: var(--navy-blue);
+}
 
+.customer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.costumer-brand {
+    width: 168px;
+    height: 88px;
+    padding: 16px 32px;
+}
+
+
+
+
+
+
+
+
+/* PORTFOLIO */
 .customers .portf-menu {
     padding: 96px 0 120px;
 }
