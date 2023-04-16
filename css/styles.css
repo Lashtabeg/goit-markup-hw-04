@@ -553,9 +553,13 @@ a {
 .footer {
     background-color: var(--navy-blue);
     padding: 100px 0;
-    display: flex;
 }
 
+.footer-conteiner {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
 
 
 .footer-text {
@@ -573,9 +577,7 @@ a {
 
 }
 
-.footer-right {
-    margin-right: 120px;
-}
+.footer-right {}
 
 .footer-middle {
     align-items: baseline;
@@ -588,4 +590,8 @@ a {
     letter-spacing: 0.02em;
     color: var(--white);
     margin-bottom: 16px;
+}
+
+.footer-icon {
+    gap: 16px;
 }
