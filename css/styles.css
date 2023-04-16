@@ -421,15 +421,15 @@ a {
 .costumer-brand {
     width: calc((100% - 120px) / 6);
     padding: 16px 32px;
-    height: 100%;
-    border: 1px solid rgba(142, 143, 153, 1);
+    height: 88px;
+    border: 1px solid var(--light-slate);
     border-radius: 4px;
 }
 
 .customer-item:hover,
 .customer-item:focus {
     border-color: var(--ocean);
-    fill: var(--ocean);
+    color: var(--ocean);
 }
 
 .customer-item {
@@ -437,10 +437,13 @@ a {
     justify-content: center;
     align-items: center;
     color: var(--light-slate);
+    width: 100%;
+    height: 100%;
+
 
 }
 
-.customer-item {
+.customer-icon {
     fill: currentColor
 }
 
@@ -448,7 +451,7 @@ a {
 
 
 /* PORTFOLIO */
-.customers .portf-menu {
+.portf-menu {
     padding: 96px 0 120px;
 }
 
@@ -495,16 +498,12 @@ a {
     color: var(--white);
     cursor: pointer;
     border: 1px solid transparent;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-}
-
-.all-btn:hover,
-.all-btn:focus {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
         0px 2px 1px 0px rgba(0, 0, 0, 0.08),
         0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
 }
+
 
 .portf-apps-list {
     display: flex;
@@ -515,23 +514,14 @@ a {
 .portf-apps-item {
     width: calc((100%-(24px*var(--portf-list-num)-1))/var(--portf-list-num));
     box-sizing: content-box;
-}
-
-.portf-apps-item:hover {
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.portf-apps-item:first-child {
     display: block;
 }
 
-.portf-apps-item:first-child:hover,
-.portf-apps-item:first-child:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+.portf-apps-item:hover,
+.portf-apps-item:focus {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .app-name {
