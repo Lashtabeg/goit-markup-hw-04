@@ -426,22 +426,24 @@ a {
     border-radius: 4px;
 }
 
+.customer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-slate);
+    width: inherit;
+    height: inherit;
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+}
+
 .customer-item:hover,
 .customer-item:focus {
     border-color: var(--ocean);
     color: var(--ocean);
 }
 
-.customer-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--light-slate);
-    width: 100%;
-    height: 100%;
 
-
-}
 
 .customer-icon {
     fill: currentColor
