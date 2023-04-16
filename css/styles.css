@@ -420,7 +420,6 @@ a {
 
 .costumer-brand {
     width: calc((100% - 120px) / 6);
-    padding: 16px 32px;
     height: 88px;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
