@@ -363,40 +363,23 @@ a {
     border-radius: 0px 0px 4px 4px;
 }
 
-.social-list {
+.social {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 24px;
 }
 
-.social-list-item {
+.social-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
-}
-
-.social-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 44px;
+    height: 44px;
     background-color: var(--iris);
     border-radius: 50%;
-    height: 100%;
-    width: 100%;
 }
 
-.social-item:hover,
-.social-item:cover {
-    background-color: var(--ocean);
-}
-
-
-.social-icon {
-    fill: var(--cloud);
-}
+.link .social-icon {}
 
 
 .customer {
