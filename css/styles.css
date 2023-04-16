@@ -374,8 +374,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--iris);
-    border-radius: 50%;
     width: 40px;
     height: 40px;
 }
@@ -384,6 +382,10 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--iris);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 .social-item:hover,
@@ -430,6 +432,7 @@ a {
     justify-content: center;
     align-items: center;
     color: var(--light-slate);
+    height: 100%;
     width: 100%;
     height: inherit;
     border: 1px solid var(--light-slate);
