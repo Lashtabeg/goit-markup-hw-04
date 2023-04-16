@@ -592,3 +592,8 @@ a {
 .footer-icon {
     gap: 16px;
 }
+
+.footer-icon .social-item .social-link:hover,
+.footer-icon .social-item .social-link:focus {
+    background-color: var(--green);
+}
