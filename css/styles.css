@@ -431,8 +431,8 @@ a {
     border-radius: 4px;
 }
 
-.costumer-brand:hover,
-.costumer-brand:focus {
+.customer-item:hover,
+.customer-item:focus {
     border-color: var(--ocean);
     color: var(--ocean);
 }
