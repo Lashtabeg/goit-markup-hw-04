@@ -431,7 +431,7 @@ a {
     justify-content: center;
     align-items: center;
     color: var(--light-slate);
-    width: inherit;
+    width: 100%;
     height: inherit;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
