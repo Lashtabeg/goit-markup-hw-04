@@ -414,7 +414,6 @@ a {
 .costumer-brand {
     width: calc((100% - 120px) / 6);
     height: 88px;
-    border: 1px solid var(--light-slate);
     border-radius: 4px;
 }
 
@@ -423,8 +422,6 @@ a {
     justify-content: center;
     align-items: center;
     color: var(--light-slate);
-    height: 100%;
-    width: 100%;
     height: inherit;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
