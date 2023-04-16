@@ -428,8 +428,7 @@ a {
 }
 
 .costumer-brand:hover,
-.costumer-brand:focus,
-.costumer-brand:active {
+.costumer-brand:focus {
     background-color: var(--ocean);
 }
 
