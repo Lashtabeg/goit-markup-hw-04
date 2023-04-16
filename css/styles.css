@@ -20,6 +20,7 @@
     --our-team-num: 4;
     --portf-list-num: 3;
     --web-link-num: 4;
+    --brand-num: 6;
 
 }
 
@@ -418,7 +419,7 @@ a {
 }
 
 .costumer-brand {
-    width: 168px;
+    width: calc(100% - (24px*(var(--brand-num)-1))*var(--brand-num));
     height: 88px;
     padding: 16px 32px;
     border: 1px solid rgba(142, 143, 153, 1);
@@ -563,6 +564,7 @@ a {
 .footer {
     background-color: var(--navy-blue);
     padding: 100px 0;
+    display: flex;
 }
 
 
@@ -577,5 +579,14 @@ a {
 
 .footer-logo {
     display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-social {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white);
     margin-bottom: 16px;
 }
