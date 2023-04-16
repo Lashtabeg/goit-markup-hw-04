@@ -419,17 +419,22 @@ a {
 }
 
 .costumer-brand {
-    width: calc(100% - (24px*(var(--brand-num)-1))*var(--brand-num));
-    height: 88px;
+    width: calc((100% - 120px) / 6);
     padding: 16px 32px;
+    height: 100%;
     border: 1px solid rgba(142, 143, 153, 1);
     border-radius: 4px;
+}
 
+.customer-item {
+    border: 1px solid rgba(142, 143, 153, 1);
+    border-radius: 4px;
 }
 
 .costumer-brand:hover,
 .costumer-brand:focus {
-    background-color: var(--ocean);
+    border-color: var(--ocean);
+    color: var(--ocean);
 }
 
 .customer-item {
