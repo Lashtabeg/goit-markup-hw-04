@@ -580,12 +580,15 @@ a {
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+
+}
+
+.footer-right {
+    margin-right: 120px;
 }
 
 .footer-middle {
-
     align-items: baseline;
-    margin-right: 120px;
 }
 
 .footer-social {
