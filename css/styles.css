@@ -514,11 +514,15 @@ a {
 .portf-apps-item {
     width: calc((100%-(24px*var(--portf-list-num)-1))/var(--portf-list-num));
     box-sizing: content-box;
+
+}
+
+.portf-link {
     display: block;
 }
 
-.portf-apps-item:hover,
-.portf-apps-item:focus {
+.portf-link:hover,
+.portf-link:focus {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
         0px 1px 6px 0px rgba(46, 47, 66, 0.08);
