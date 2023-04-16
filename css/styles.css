@@ -393,6 +393,7 @@ a {
     background-color: var(--ocean);
 }
 
+
 .social-icon {
     fill: var(--cloud);
 }
@@ -567,7 +568,6 @@ a {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
-
 }
 
 
@@ -601,4 +601,9 @@ a {
 
 .footer-icon {
     gap: 16px;
+}
+
+.footer-middle .social-icon {
+    width: 24px;
+    height: 24px;
 }
